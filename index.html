@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
@@ -16,7 +21,7 @@
 
         <nav class="navbar">
             <a href="index.html" class="active">Home</a>
-            <a href="timeline.html">Timeline</a>
+            <a href="about.html">About Me</a>
             <a href="journal.html">Journal</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -26,11 +31,13 @@
         <div class="home-content">
             <h1>Hi, it's <span>Yu Chuan</span></h1>        
             <h3 class="text-animation">I'm a <span></span></h3>
+
             <p>From Cooking to Sorting ().
                 Here is a journal on my journey how I have gone from chasing for the perfect mise en place. To now finding
                 the perfect balance in coding. From holding a Chef Knife to a mechanical keyboard, my logic has stayed the same
                 discipline, patience and efficient before the customers arrives. I have used to serve tables with their hungry belly,
-                now I serve APIs their technological appetite.</p>
+                now I serve APIs their technological appetite. 
+            </p>
 
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/yu-chuan-oh-169a3419b/"target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -39,6 +46,8 @@
             </div>
 
             <div class="btn-group">
+                <a href="projects.html" class="btn">View my work</a>
+                <a href="Developer CV.pdf" class="btn" target="_blank" rel="noopener noreferrer">Résumé</a>
                 <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
@@ -53,25 +62,36 @@
 
         <div class="timeline-items">
 
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2023 - 26</div>
-                <div class="timeline-content">
-                    <h3>University</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti accusamus temporibus magni sit repellendus, iste, deserunt autem illum, incidunt non dolorem obcaecati. Totam voluptatem exercitationem deserunt 
-                    neque laudantium eius illum.</p>
-                </div>
-            </div>
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 - 26</div>
+        <div class="timeline-content">
+            <h3>BSC Computer Science, BSBI</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum optio atque mollitia minima! 
+                Labore, accusamus amet nam excepturi in officiis id est nemo saepe praesentium explicabo ipsam, 
+                distinctio expedita assumenda.</p>
+        </div>
+    </div>
 
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2026</div>
-                <div class="timeline-content">
-                    <h3>Internship</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Deleniti accusamus temporibus magni sit repellendus, iste, deserunt autem illum, 
-                    incidunt non dolorem obcaecati. Totam voluptatem exercitationem deserunt 
-                    neque laudantium eius illum.</p>
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2026</div>
+        <div class="timeline-content">
+            <h3>AI Enginneer / Full Stack, Hackathon </h3>
+            <p>[What you worked on, what you used, and one thing you shipped or improved.
+               If you don't have this yet, delete this block — an honest short timeline
+               beats a padded one.]</p>
+        </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2020</div>
+        <div class="timeline-content">
+            <h3>Chef, [Restaurant]</h3>
+            <p>[Don't hide this — it's your differentiator. Service under time pressure,
+               consistency, working a station in a team. Frame it as transferable, because
+               it genuinely is.]</p>
                 </div>
             </div>
 
@@ -86,88 +106,68 @@
             <div class="service-box">
                 <div class="service-info">
                     <h4>Web Developer</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus iste culpa ab aliquid, 
-                        accusantium impedit vel ratione assumenda! Eveniet exercitationem necessitatibus officiis minima aliquam, 
-                        sint placeat iusto. Ullam, praesentium.</p> 
+                    <p>HTML, CSS and JavaScript, written by hand. I build responsive layouts
+                       and care how a page behaves on a phone, not just a laptop — this site
+                       is one of them.</p> 
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Data Analyst</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus iste culpa ab aliquid, 
-                        accusantium impedit vel ratione assumenda! Eveniet exercitationem necessitatibus officiis minima aliquam, 
-                        sint placeat iusto. Ullam, praesentium.</p> 
+                    <p>Turning raw, messy data into something a person can actually act on.
+                       Cleaning and reshaping datasets in Python, then presenting the result
+                       so the finding is obvious rather than buried.</p> 
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Backend Developer</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus iste culpa ab aliquid, 
-                        accusantium impedit vel ratione assumenda! Eveniet exercitationem necessitatibus officiis minima aliquam, 
-                        sint placeat iusto. Ullam, praesentium.</p> 
+                    <p>Python on the server side. Writing scripts and small services, working
+                       with APIs, and handling data that never arrives in quite the shape the
+                       documentation promised.</p> 
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Game Developer</h4>
+                    <p>Where I started, because it's the fastest way to see your code do
+                       something. Small games in Python that taught me game loops, state and
+                       collision handling before I knew the proper names for any of it.</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Testing</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus iste culpa ab aliquid, 
-                        accusantium impedit vel ratione assumenda! Eveniet exercitationem necessitatibus officiis minima aliquam, 
-                        sint placeat iusto. Ullam, praesentium.</p> 
+                    <p>The kitchen habit that transferred most directly: check it before it
+                       leaves the pass. Writing test cases, hunting edge cases, and reproducing
+                       a bug reliably before trying to fix it.</p> 
                 </div>
             </div>
 
-        </div>
-    </section>
-
-    <section class="testimonials" id="testimonials">
-        <div class="testimonials-box">
-            <h2 class="heading">Testimonials</h2>
-
-            <div class="wrapper">
-                <div class="testimonial-item">
-                    <img src="1.png" alt="">
-                    <h2>Oliver</h2>
-                    <div class="rating"></div>
-                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, natus quisquam. Beatae eius explicabo dolorem excepturi, perferendis quasi veritatis, sunt corrupti quas itaque commodi, enim nemo? Asperiores repellat beatae similique.</p>
-                </div>
-
-                <div class="testimonial-item">
-                    <img src="2.jpg" alt="">
-                    <h2>Mary</h2>
-                    <div class="rating"></div>
-                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, natus quisquam. Beatae eius explicabo dolorem excepturi, perferendis quasi veritatis, sunt corrupti quas itaque commodi, enim nemo? Asperiores repellat beatae similique.</p>
-                </div>
-
-                <div class="testimonial-item">
-                    <img src="3.png" alt="">
-                    <h2>Julie</h2>
-                    <div class="rating"></div>
-                    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, natus quisquam. Beatae eius explicabo dolorem excepturi, perferendis quasi veritatis, sunt corrupti quas itaque commodi, enim nemo? Asperiores repellat beatae similique.</p>
-                </div>
-            </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form action="https://formspree.io/f/YOUR_ID" method  ="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
                 </div>
                 <div class="input-box">
                     <input type="number" placeholder="Phone No">
-                    <input type="text" placeholder="Subject">
+                    <input type="subject" placeholder="Subject">
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send" class="btn">
             </div>
         </form>
@@ -182,23 +182,23 @@
 
         <ul class="list">
             <li>
-                <a href="#">FAQ</a>
+                <a href="index.html">Home</a>
             </li>
 
             <li>
-                <a href="#">Services</a>
+                <a href="index.html#services">Services</a>
             </li>
 
             <li>
-                <a href="#">About Me</a>
+                <a href="about.html">About Me</a>
             </li>
 
             <li>
-                <a href="#">Contact</a>
+                <a href="index.html#contact">Contact</a>
             </li>
 
             <li>
-                <a href="#">Testimonials</a>
+                <a href="projects.html">Project Sample</a>
             </li>
         </ul>
         <p class="copyright">
